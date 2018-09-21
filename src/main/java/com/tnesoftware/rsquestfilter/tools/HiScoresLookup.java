@@ -14,7 +14,7 @@ import com.tnesoftware.rsquestfilter.impl.PlayerImpl;
 
 public class HiScoresLookup {
 	
-	private static final String HISCORES_URL = "http://services.runescape.com/m=hiscore_oldschool/index_lite.ws?player=";
+	private static final String HISCORES_URL = "https://services.runescape.com/m=hiscore_oldschool/index_lite.ws?player=";
 	
 	private static final Logger logger = Logger.getLogger( HiScoresLookup.class.getName() );
 
